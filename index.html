@@ -1,0 +1,79 @@
+<!-- General practice to use '!DOCTYPE html' at the start of a website --> 
+<!DOCTYPE html>
+
+<!-- All code goes inbetween <html> and </html> -->
+<html>
+
+<!-- This is information regarding the website such as what character set your're using, title of the webpage, references to the stylesheet and font used etc. --> 
+<head>
+	<meta charset="utf-8">
+	<html lang="en_US"> 
+	<meta name="author" content="Nathan Bullock">
+	<meta name="description" content="This is my first website.">
+	<title>Test Page</title>
+	<link rel="shortcut icon" href="images/web.ico" type="image/x-con">
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet' rel="stylesheet" type='text/css'>
+</head>
+
+<nav>
+	<ul> 
+		<li><a href='#'>Home</a></li>
+		<li><a href="#">Our team</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+	</ul>
+</nav>
+
+<!-- Inbetween <body> and </body> is the content which will be displayed to the user such as text, images, videos and tables etc. -->
+<body>
+	
+	<h1>This is a picture of a bird.</h1>
+	
+	<img src="images/kite.jpeg" alt="My test image" />
+
+<!-- This is a list such as bullet points in Microsoft Word. <ul> and </ul> defines that we are using a table. Inbetween this goes <li> and </li> which is an individual line for each listed item.--> 
+	<p><u><b>This is an example of a list.</b></u></p>
+	<ul>
+		<li>This</li>
+		<li>Is</li>
+		<li>A</li>
+		<li><a href="https://www.google.co.uk">Website</a></li>
+	</ul> 
+
+<!-- This is a table. Each <tr> is a row in a table --> 
+	<p><u><b>This is an example of a table. </b></u></p>
+		<table>
+			<tr> 
+		<td> First Cell </td>
+		<td> Second Cell </td>
+		<td> Third Cell </td> 
+		<td> Fouth Cell </td>
+		<td> Fifth Cell
+			<tr>
+		<td> First Cell </td>
+		<td> Second Cell </td> 
+		<td> Third Cell </td>
+		<td> Fouth Cell </td>
+		<td> Fifth Cell </td>
+	</tr>
+</table>
+
+<p><u><b>This is an example of an embedded video from YouTube. </b></u></p>
+
+<!-- This code is copy and pasted from YouTube's embed feature -->
+<iframe width="777" height="437" src="https://www.youtube.com/embed/M7XM597XO94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><u><b>This is an example of a downloaded video which is hosted on the website server.</b></u></p>
+
+<video src="videos/johnwick.mp4" width="777" height="437" controls> 
+	<p> Your browser doesn't support this video type. Here is a <a href="https://www.youtube.com/watch?v=M7XM597XO94">link to the video</a> 
+
+</video>
+
+<!-- These are references to Javascript --> 
+		<button>Change User</button>
+		<script src="scripts/main.js"></script>
+	</body>
+
+	</html>
